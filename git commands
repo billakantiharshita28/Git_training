@@ -1,0 +1,48 @@
+git clone https://github.com/billakantiharshita28/Git_training/xx
+
+--- To get the ccontent from https://github.com/billakantiharshita28/Git_training/xx to local repo
+
+git add <filename>
+
+--- Staging
+
+git commit -m "message"
+
+--- commit the changes
+
+git push
+
+--- push the content to remote repository
+
+git pull
+
+--- pull the content from remote repository
+
+git status
+
+---List the files you've changed and those you still need to add or commit.
+
+
+git config --global user.name "Sam Smith"
+git config --global user.email 
+----Configure the author name and email address to be used with your commits.
+
+git remote add origin <server>
+
+---If you haven't connected your local repository to a remote server, add the server to be able to push to it
+
+git remote -v
+
+---List all currently configured remote repositories
+
+git diff <sourcebranch> <targetbranch>
+
+---preview changes before merging
+
+git tag 1.0.0 <commitID>
+
+---You can use tagging to mark a significant changeset, such as a release.
+
+git grep "foo()"
+
+---Search the working directory for foo()
